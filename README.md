@@ -80,26 +80,4 @@ This function takes each video frame and returns the sketch-style image.
 
 ---
 
-## 🎥 Output Example
-
-> *(You can add a screenshot or GIF here later)*
-
----
-
-## 📂 File Structure
-
-```
-live-sketch-opencv/
-├── sketch.py        # Main script
-└── README.md        # You're reading this 😄
-```
-
----
-
-## 📄 License
-
-MIT License — use it freely, modify it, and share it!
-
----
-
-## 🙌 Made with ❤️ by [Your Name or GitHub Username]
+## 🙌 Made with ❤️ by [Navdeep Singh Ahuja]
