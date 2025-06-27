@@ -65,16 +65,6 @@ python sketch.py
 
 ---
 
-## 📄 Code Overview
-
-```python
-def sketch(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    blur = cv2.GaussianBlur(gray, (5, 5), 0)
-    edges = cv2.Canny(blur, 50, 20)
-    _, mask = cv2.threshold(edges, 100, 255, cv2.THRESH_BINARY_INV)
-    return mask
-```
 
 This function takes each video frame and returns the sketch-style image.
 
